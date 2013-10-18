@@ -104,20 +104,6 @@ ul.nav {
   }
 }
 
-#registration {
-  .minibox:hover {
-      background-color: $fg;
-  }  
-  
-  label {
-    width: 110px;
-    float:left;
-  }
-  input {
-    margin-top: 8px;
-  }
-}
-
 a {
     color: $fglink;
     font-weight: bold;
@@ -1154,6 +1140,29 @@ div[data-hook="inside_cart_form"] {
   #existing-customer {
     width: auto;
     text-align: left;
+  }
+  
+  #guest_checkout {
+    width: 295px;
+    height: 193px;
+  }
+  
+    .minibox:hover {
+      background-color: $fg;
+  }  
+  
+  label {
+    padding-top: 8px;
+    width: 120px;
+    float:left;
+  }
+  
+  input {
+    margin-top: 8px;
+  }
+  
+  input[type="checkbox"] {
+    float: right;
   }
 }
 
