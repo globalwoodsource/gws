@@ -49,7 +49,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'spree', :path => '../spree-1-3-mod'
+gem 'spree', :github => 'globalwoodsource/spree-1-3'
 gem 'spree_gateway', :github => 'spree/spree_gateway', :branch => '1-3-stable'
 gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-stable'
 
