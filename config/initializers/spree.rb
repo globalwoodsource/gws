@@ -9,6 +9,14 @@ Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
   # config.site_name = "Spree Demo Site"
+	config.use_s3 = true
+	config.s3_bucket = 'globalwoodsource'
+	config.s3_access_key = 'tech@globalwoodsource.com'
+	config.s3_secret = 'the really good password'
 end
 
 Spree.user_class = "Spree::User"
+
+Paperclip.interpolates(:s3_eu_url) do |attachment, style|
+	"#{attachment.s3_protocol}://#{Spree::Config[:s3_host_alias]}/#{attachment.globalwoodsource}/#{attachment.path(style).gsub(%r{^/},"")}"
+end
