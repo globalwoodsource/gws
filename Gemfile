@@ -55,4 +55,4 @@ gem 'spree_auth_devise', :github => 'spree/spree_auth_devise', :branch => '1-3-s
 
 gem 'datashift'
 gem 'datashift_spree'
-
+gem 'newrelic_rpm'
