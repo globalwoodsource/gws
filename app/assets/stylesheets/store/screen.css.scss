@@ -144,7 +144,15 @@ a {
   }
 }
 
+div#existing-customer {
+	padding: 10px;
+}
 
+div#password-credentials {
+	label {
+		width: 100px;
+	}
+}
 
 .picbox {
   border: 4px solid $fg;

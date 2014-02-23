@@ -20,10 +20,12 @@ $cart_color: #7f170e;
 /*--------------------------------------*/
 @import url(//fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,700italic|&subset=latin,cyrillic,greek,greek-ext,latin-ext,cyrillic-ext);
 
+@import url(//fonts.googleapis.com/css?family=PT+Serif+Caption);
+
 /*--------------------------------------*/
 /* Font families
 /*--------------------------------------*/
-$ff_base:       Helvetica;
+$ff_base: 'PT Serif Caption', serif;
 
 /*--------------------------------------
   | Font sizes
@@ -55,7 +57,7 @@ $ff_base:       Helvetica;
       $sub_heading_font_size:                 14px !default;
       $button_font_size:                      12px !default;
       $input_box_font_size:                   13px !default;
-      $base_font_size:                        12px !default;
+      $base_font_size:                        14px !default;
       $border_color:                          lighten($body_text_color, 60) !default;
       $default_border:                        1px solid $border_color !default;
       $button_border_color:                   rgba(0, 138, 189, .75) !default;
@@ -67,7 +69,7 @@ $ff_base:       Helvetica;
       $bg1:     #92a4a2;
       $bg2:     #5e4e47;
       $fg:      #776b66;
-      $fgtext:  #dec7bd;
+      $fgtext:  #111;
       $fglink:  #e8f0f3;
       $shadow:  #333;
       $foot:    #111;
